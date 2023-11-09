@@ -1,0 +1,32 @@
+.Zone1 {
+    background-color: #e9d974;
+    color:black;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+    float: initial;
+}
+
+.Zone2 {
+    background-color: #b3f773;
+    color:black;
+    text-align: center;
+    margin-right: 440px ;
+    padding-bottom: 600px;
+    font-weight: bold;
+    width: 200px;
+    float: initial;
+}
+
+.Zone3 {
+    background-color: #115554;
+    color: black;
+    text-align: center;
+    margin-left: 450;
+    padding-bottom: 600;
+    font-weight: bold;
+    width: 870px;
+    position: relative;
+    bottom: 618px;
+    right: 250px;
+}

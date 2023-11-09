@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="assets/css/normalize.css">
+     <link rel="stylesheet" href="assets/css/base.css">
+     <link rel="stylesheet" href="assets/css/nav.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <title>Formation Web Level 1</title>
+</head>
+<body>
+<!--<i class="fa-solid fa-triangle-exclamation"></i>-->
+<!--<i class="fa-solid fa-bomb"></i>-->
+<header>
+     <div id="home">
+          <a href="index_html_css.html"><i class="fa-solid fa-house fa-3x"></i></a>
+     </div>
+     <h1>html css</h1>
+</header>
+
+<div class="table">
+     <main>
+          <section>
+               <h2>Les tableaux HTML</h2>
+               <article>
+                    <h3>définition</h3>
+                    
+                    <ul>
+                         <li>Un tableau HTML c'est</li>
+                         <li class="li-ul-nested">
+                              <ul class="ul-nested">
+                                   <li>une structure HTML avec des balises dédiées</li>
+                                   <li>une structure HTML contenue dans une balise <em>&lt;table>&lt;/table></em></li>
+                                   <li>des lignes / <em>rangées</em> (rows) <em>&lt;tr>&lt;/tr></em> qui contiennent une ou plusieurs cellules qui contiennent des <em>données</em> <em>&lt;td>&lt;/td></em></li>
+                                   <li>les cellules contiennent des données <em>&lt;td>&lt;/td></em></li>
+                                   <li>les données peuvent être tout type de contenu (paragraphes, images, articles ...)</li>
+                              </ul>
+                         </li>
+                    </ul>
+                    
+<!--                    <pre><code><span class="code-tag"></span></code></pre>-->
+               </article>
+               
+               <div class="flex-wrap">
+                    <article class="demo">
+                         <h3>Structure minimale</h3>
+                         <pre><code><span class="code-tag">
+&lt;table>
+     &lt;tr>
+          &lt;td>pixel&lt;/td>
+          &lt;td>2 ans&lt;/td>
+          &lt;td>norvégien&lt;/td>
+     &lt;/tr>
+     &lt;tr>
+          &lt;td>merlin&lt;/td>
+          &lt;td>6 mois&lt;/td>
+          &lt;td>norvégien&lt;/td>
+     &lt;/tr>
+     &lt;tr>
+          &lt;td>alibi&lt;/td>
+          &lt;td>à venir&lt;/td>
+          &lt;td>à voir&lt;/td>
+     &lt;/tr>
+&lt;/table>
+                         </span></code></pre>
+                    </article>
+                    <article class="demo demo-blocs">
+                         <h3>Affichage</h3>
+                         <h4>sans CSS</h4>
+                         <table>
+                              <tr>
+                                   <td>pixel</td>
+                                   <td>2 ans</td>
+                                   <td>norvégien</td>
+                              </tr>
+                              <tr>
+                                   <td>merlin</td>
+                                   <td>6 mois</td>
+                                   <td>norvégien</td>
+                              </tr>
+                              <tr>
+                                   <td>alibi</td>
+                                   <td>à venir</td>
+                                   <td>à voir</td>
+                              </tr>
+                         </table>
+                         <hr>
+                         <h4>avec un peu de CSS</h4>
+                         <table>
+                              <tr>
+                                   <td>pixel</td>
+                                   <td>2 ans</td>
+                                   <td>norvégien</td>
+                              </tr>
+                              <tr>
+                                   <td>merlin</td>
+                                   <td>6 mois</td>
+                                   <td>norvégien</td>
+                              </tr>
+                              <tr>
+                                   <td>alibi</td>
+                                   <td>à venir</td>
+                                   <td>à voir</td>
+                              </tr>
+                         </table>
+                         <hr>
+                         <h4>à noter</h4>
+                         <p>On remarque dans l'inspecteur du navigateur que celui-ci rajoute la balise &lt;tbody> en enfant direct de la balise &lt;table></p>
+                    </article>
+               </div>
+               
+<!--               <ul>-->
+<!--                    <li class="li-ul-nested">-->
+<!--                         <ul class="ul-nested">-->
+<!--                              <li></li>-->
+<!--                              <li></li>-->
+<!--                              <li></li>-->
+<!--                         </ul>-->
+<!--                    </li>-->
+<!--               </ul>-->
+          </section>
+          
+          <section>
+               <h2>Structure complète</h2>
+               <article>
+                    <h3>thead tbody tfoot</h3>
+     
+                    <table>
+                         <thead>
+                         <tr>
+                              <th>produit</th>
+                              <th>quantité</th>
+                              <th>prix unitaire</th>
+                              <th>prix total</th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <tr>
+                              <td>mac book air</td>
+                              <td>1</td>
+                              <td>1599</td>
+                              <td>1599</td>
+                         </tr>
+                         <tr>
+                              <td>magic mouse</td>
+                              <td>2</td>
+                              <td>199</td>
+                              <td>398</td>
+                         </tr>
+                         <tr>
+                              <td>track pad</td>
+                              <td>1</td>
+                              <td>250</td>
+                              <td>250</td>
+                         </tr>
+                         </tbody>
+                         <tfoot>
+                              <tr>
+                                   <td>total</td>
+                                   <td>4</td>
+                                   <td>facture</td>
+                                   <td>2247</td>
+                              </tr>
+                         </tfoot>
+                    </table>
+                    
+<!--                    <ul>-->
+<!--                         <li></li>-->
+<!--                         <li class="li-ul-nested">-->
+<!--                              <ul class="ul-nested">-->
+<!--                                   <li></li>-->
+<!--                                   <li></li>-->
+<!--                                   <li></li>-->
+<!--                              </ul>-->
+<!--                         </li>-->
+<!--                    </ul>-->
+<!--                    -->
+<!--                    <pre><code><span class="code-tag">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"></span></code></pre>-->
+               </article>
+          
+               <article>
+                    <h3>Le code complet</h3>
+                    <pre><code><span class="code-tag">
+&lt;table>
+     <span class="c-light-red">&lt;thead></span>
+          &lt;tr>
+               &lt;th>produit&lt;/th>
+               &lt;th>quantité&lt;/th>
+               &lt;th>prix unitaire&lt;/th>
+               &lt;th>prix total&lt;/th>
+          &lt;/tr>
+     <span class="c-light-red">&lt;/thead></span>
+     <span class="c-light-red">&lt;tbody></span>
+          &lt;tr>
+               &lt;td>mac book air&lt;/td>
+               &lt;td>1&lt;/td>
+               &lt;td>1599&lt;/td>
+               &lt;td>1599&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+               &lt;td>magic mouse&lt;/td>
+               &lt;td>2&lt;/td>
+               &lt;td>199&lt;/td>
+               &lt;td>398&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+               &lt;td>track pad&lt;/td>
+               &lt;td>1&lt;/td>
+               &lt;td>250&lt;/td>
+               &lt;td>250&lt;/td>
+          &lt;/tr>
+     <span class="c-light-red">&lt;/tbody></span>
+     <span class="c-light-red">&lt;tfoot></span>
+          &lt;tr>
+               &lt;td>total&lt;/td>
+               &lt;td>4&lt;/td>
+               &lt;td>facture&lt;/td>
+               &lt;td>2247&lt;/td>
+          &lt;/tr>
+     <span class="c-light-red">&lt;/tfoot></span>
+&lt;/table>
+                    </span></code></pre>
+               </article>
+          </section>
+     
+          <section>
+               <h2>Fusionner des cellules entre elles</h2>
+     
+               <div class="flex-wrap">
+                    <article class="demo fusion-demo">
+                         <pre><code><span class="code-tag">
+&lt;table>
+     &lt;caption>Vitamines&lt;/caption>
+     &lt;thead>
+          &lt;tr>
+               <span class="c-middle-green tab1 hide">&lt;th>&lt;th></span>
+               <span class="c-light-red tab2 hide">&lt;th>&lt;th></span>
+               &lt;th<span class="c-light-red tab2 hide"> colspan="2"</span>>Vitamines A & B&lt;/th>
+               <span class="c-middle-green tab1 hide">&lt;th>&lt;th></span>
+               &lt;th>Vitamine C&lt;/th>
+          &lt;/tr>
+     &lt;/thead>
+     &lt;tbody>
+          &lt;tr>
+               &lt;td>Orange&lt;/td>
+               &lt;td<span class="c-light-red tab2 hide"> rowspan="2"</span>>2mg&lt;/td>
+               &lt;td>15mg&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+               &lt;td>Carotte&lt;/td>
+               <span class="c-middle-green tab1 hide">&lt;td>2mg&lt;/td></span>
+               &lt;td>15mg&lt;/td>
+               &lt;td>4mg&lt;/td>
+          &lt;/tr>
+     &lt;/tbody>
+&lt;/table>
+                         </span></code></pre>
+
+                    </article>
+                    <article class="demo demo-blocs vitamines">
+                         <h3>Mauvaise pratique :<br> ne pas avoir le même nombre de &lt;td> sur chaque rangée &lt;tr></h3>
+                         <table class="show-hide-1">
+                              <caption>Vitamines</caption>
+                              <thead>
+                                   <tr>
+                                        <th class="hide"></th>
+                                        <th>Vitamines A & B</th>
+                                        <th class="hide"></th>
+                                        <th>Vitamine C</th>
+                                   </tr>
+                              </thead>
+                              <tbody>
+                                   <tr>
+                                        <td>Orange</td>
+                                        <td>2mg</td>
+                                        <td>2mg</td>
+                                        <td>15mg</td>
+                                   </tr>
+                                   <tr>
+                                        <td>Carotte</td>
+                                        <td class="hide">2mg</td>
+                                        <td>15mg</td>
+                                        <td>4mg</td>
+                                   </tr>
+                              </tbody>
+                         </table>
+                         <p>Tout est décalé, les infos sont incompréhensibles, rien ne va ! Cliquer sur le code ou le tableau pour tenter de rectifier ça...</p>
+                         <hr>
+                         <h3>Colspan & Rowspan</h3>
+                         <p>Fusionner les rangs et les cellules</p>
+                         <table class="show-hide-2">
+                              <caption>Vitamines</caption>
+                              <thead>
+                              <tr>
+                                   <th class="hidden2 hide"></th>
+                                   <th colspan="2" class="hidden2 hide">Vitamines A & B</th>
+                                   <th class="hidden2 show">Vitamines A & B</th>
+                                   <th>Vitamine C</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                   <td>Orange</td>
+                                   <td rowspan="2" class="hidden2 hide">2mg</td>
+                                   <td class="hidden2 show">2mg</td>
+                                   <td>2mg</td>
+                                   <td>15mg</td>
+                              </tr>
+                              <tr>
+                                   <td>Carotte</td>
+                                   <td>15mg</td>
+                                   <td>4mg</td>
+                              </tr>
+                              </tbody>
+                         </table>
+                    </article>
+               </div>
+<!--               </article>-->
+          </section>
+          
+          <section>
+               <h2>Col et Colspan</h2>
+               <h3>Mettre en forme les colonnes</h3>
+               <ul>
+                    <li>Les tableaux HTML sont construit par les lignes qui sont déclarées les unes au-dessus des autres</li>
+                    <li>La mise en forme des colonnes est donc plus compliquée car il faut cibler les &lt;td> des différentes lignes</li>
+                    <li>HTML5 apporte 2 balises qui facilitent un peu cette mise en forme :</li>
+                    <li class="li-ul-nested">
+                         <ul class="ul-nested">
+                              <li><em>&lt;colgroup>&lt;/colgroup></em> représente un groupe d'une ou plusieurs colonnes dans un tableau</li>
+                              <li><em>&lt;colgroup</em> doit <mark>impérativement</mark> être</li>
+                              <li class="li-ul-nested">
+                                   <ul class="ul-nested">
+                                        <li>suivie d'un <em>&lt;col></em> pour chaque colonne</li>
+                                        <li><em>avant</em> les &lt;thead>, &lt;tbody> et &lt;tfoot></li>
+                                        <li><em>après</em> les &lt;caption></li>
+                                   </ul>
+                              </li>
+                              <li><em>&lt;col></em> peut regrouper plusieurs colonnes avec l'attribut <em>span="3"</em> suivi du nombre de colonnes</li>
+                         </ul>
+                    </li>
+               </ul>
+     
+               <div class="flex-wrap">
+                    <article class="demo">
+                         <pre><code><span class="code-tag">
+&lt;table>
+     &lt;caption>Colgroup&lt;/caption>
+     &lt;colgroup>
+          &lt;col>
+          &lt;col <span class="c-light-red">span="2"</span>>
+          &lt;col>
+     &lt;/colgroup>
+     &lt;thead>
+          &lt;tr>
+               &lt;th>&lt;/th>
+               &lt;th>Orange&lt;/th>
+               &lt;th>Carotte&lt;/th>
+               &lt;th>Pomme&lt;/th>
+          &lt;/tr>
+     &lt;/thead>
+     &lt;tbody>
+          &lt;tr>
+               &lt;td>2mg&lt;/td>
+               &lt;td>2mg&lt;/td>
+               &lt;td>15mg&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+               &lt;td>15mg&lt;/td>
+               &lt;td>15mg&lt;/td>
+               &lt;td>4mg&lt;/td>
+          &lt;/tr>
+     &lt;/tbody>
+&lt;/table>
+                         </span></code></pre>
+                    </article>
+                    <article class="demo demo-blocs vitamines">
+                         <table>
+                              <caption>Colgroup</caption>
+                              <colgroup>
+                                   <col>
+                                   <col span="2">
+                                   <col>
+                              </colgroup>
+                              <thead>
+                              <tr>
+                                   <th></th>
+                                   <th>Orange</th>
+                                   <th>Carotte</th>
+                                   <th>Pomme</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                   <td>Vitamine A</td>
+                                   <td>2mg</td>
+                                   <td>2mg</td>
+                                   <td>15mg</td>
+                              </tr>
+                              <tr>
+                                   <td>Vitamine C</td>
+                                   <td>15mg</td>
+                                   <td>15mg</td>
+                                   <td>4mg</td>
+                              </tr>
+                              </tbody>
+                         </table>
+                    </article>
+               </div>
+          </section>
+     
+          <section>
+               <h2>à retenir</h2>
+     
+               <ul>
+                    <li>la plupart des attributs des balises de tableaux sont dépréciés (border, cellpadding, cellspacing ...)</li>
+                    <li>la mise en forme doit se faire en CSS et plus avec ces attributs dépréciés</li>
+                    <li>les lignes <em>doivent toutes</em> contenir le <em>même nombre</em> de cellules</li>
+                    <li class="li-ul-nested">
+                         <ul class="ul-nested">
+                              <li>soit avec des cellules <em>&lt;td></em> vides</li>
+                              <li>soit en ayant fusionné des <em>&lt;td></em> en ligne <em>colspan</em> ou en rangs <em>rowspan</em></li
+                         </ul>
+                         <li><em>&lt; colgroup></em> et <em>&lt;col></em> permettent de regrouper les colonnes pour les mettre en forme plus facilement</li>
+                    </li>
+               </ul>
+          </section>
+          
+          
+     </main>
+</div>
+
+<footer>
+     <div class="container">
+          <small>&copy; | TDR</small>
+          <small>2022-2023</small>
+          <small>MilaHG</small>
+     </div>
+</footer>
+<script src="assets/js/show-hidden.js"></script>
+<script src="https://kit.fontawesome.com/9de8273207.js" crossorigin="anonymous"></script>
+</body>
+</html>

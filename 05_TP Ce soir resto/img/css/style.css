@@ -1,0 +1,277 @@
+body {
+    margin: auto 13cm;
+    background-color: rgb(193, 250, 193);
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(../woddPlank.jpg);
+    height: 20cm;
+}
+
+.title {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+    font-style: italic;
+    padding-bottom: 20px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+.bloc {
+    background-color: #d4276d;
+    display: inline;
+    color: #d4276d;
+    position: relative;
+    left: 130px;
+    border-radius: 2px;
+}
+
+.e {
+    position:relative;
+    bottom: 5;
+    font-size: 40px;
+    right: 10;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+    width: 9%;
+    font-weight: bold;
+}
+
+nav ul {
+    padding: 0;
+    position: relative;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    left: 58%;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    bottom: 80px;
+    font-size: 15px;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo {
+    height: 200px;
+    position: relative;
+    left: 400px;
+    bottom: 55px;
+}
+
+.trgl{
+    height : 0;
+    width : 0;
+    border-top : 150px solid #d4276d;
+    border-left : 150px solid transparent;
+    position: relative;
+    left: 408px;
+    top: 155px
+}
+
+.fleche {
+        border: solid #d4276d;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        height: 40;
+        width: 40;
+        position: relative;
+        left: 265px;
+        top: 150px;
+}
+
+.bgcstory {
+    background-image: url(../pattern.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 15cm;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+.story {
+    font-size: 60px;
+    margin-bottom: 80px;
+    padding-top: 52px;
+    margin-top: 0;
+}
+
+.bloc2 {
+    background-color: #d4276d;
+    display: inline;
+    color: #d4276d;
+    position: relative;
+    border-radius: 2px;
+    bottom: 130px;
+}
+
+.est {
+    color: #d4276d;
+    font-weight: 900;
+}
+
+.asperge {
+    position: relative;
+    bottom: 10.6cm;
+    float: right;
+    width: 569px;
+    height: 400;
+}
+
+.freshf {
+    float: right;
+    text-align: center;
+    margin-left: 20cm;
+    position: relative;
+    bottom: 401px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(../pattern.jpg);
+    padding: 0px 50px 22px 50px;
+    font-weight: bolder;
+}
+
+.fresh {
+    font-size: 45;
+    padding-bottom: 40px;
+}
+
+.bloc3 {
+    background-color: #d4276d;
+    display: inline;
+    color: #d4276d;
+    position: relative;
+    border-radius: 2px;
+    bottom: 190px;
+    right: 30px;
+}
+
+.natural {
+    color: #d4276d;
+    position: relative;
+    top: 5px;
+    font-weight: 900;
+}
+
+.soap {
+    position: absolute;
+    height: 556px;
+}
+
+.caillou {
+    height: 100;
+    position: relative;
+    top: 10px;
+}
+
+.moule {
+    position: relative;
+    bottom: 402px;
+    height: 490px;
+    float: right;
+}
+
+.local {
+    float: left;
+    text-align: center;
+    margin-left: 28cm;
+    position: relative;
+    bottom: 892px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    right: 1058px;
+    background: url(../pattern.jpg);
+    padding: 37px 72px 24px 73px;
+    height: 430;
+}
+
+.bloc4 {
+    background-color: #d4276d;
+    display: inline;
+    color: #d4276d;
+    position: relative;
+    border-radius: 2px;
+    bottom: 100px;
+}
+
+.craft {
+    position: relative;
+    top: 60;
+    color: #d4276d;
+    font-weight: 900;
+}
+
+.textee {
+    position: relative;
+    top: 65px;
+}
+
+.loc {
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+}
+
+.G2 {
+    height: 150;
+    position: relative;
+    top: 535;
+    left: 140;
+}
+
+.oeuf {
+    position: relative;
+    bottom: 895;
+    height: 623;
+}
+
+.foot {
+    height: 500px;
+    position: relative;
+    bottom: 895;
+    width: 1045;
+}
+
+.tittre {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+    font-style: italic;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 1300;
+    left: 50;
+}
+
+.sep {
+    background-color: #d4276d;
+    display: inline;
+    color: #d4276d;
+    position: relative;
+    border-radius: 2px;
+    bottom: 1320px;
+    left: 100px;
+}
+
+.i,
+.f,
+.p,
+.w {
+    position: relative;
+    bottom: 1200px;
+    left: 70;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #fff;
+    padding: 10% 0 0 0;
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 3px solid gray;
+}
+
+h2,
+h3 {
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+
+section {
+    float: left;
+    width: 38%;
+    padding: 1% 5%;
+}
+
+/* SURCHARGE */
+a
+h2 {
+    background-color: #e1cdb5;
+}
+
+h2 {
+    background-color: #97d882;
+}
+
+/* SPECIFICITE */
+
+h3 {
+    background-color: #225560 !important;
+} 
+
+
+#h3.h3 {
+    background-color: #700890;
+}
+
+#h3 {
+    background-color: #e2adf2;
+}
+
+.h3 {
+    background-color: #632c09;
+}

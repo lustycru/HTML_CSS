@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&family=Space+Mono&display=swap');
+
+body {
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Space Mono', monospace;
+}
+
+table {
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.grey {
+    color: grey;
+    padding: 50px 0px 50px 0px;
+}
+
+.pub {
+    padding: 50px 0px 50px 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+}

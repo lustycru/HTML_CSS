@@ -1,0 +1,38 @@
+header {
+    background-color: #f4e587;
+    padding-bottom:30px;
+    text-align: center;
+    position: relative;
+}
+
+.milieu {
+    text-align: center;
+    background-color: #4340fa;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 500;
+}
+
+.gauche {
+    background-color: #f4c6c6;
+    text-align: center;
+    margin-left: 350;
+    margin-right: 350;
+    padding-bottom: 500;
+    position: relative;
+    right: 350;
+    bottom: 537;
+    width: 150;
+}
+
+.droite {
+    background-color: #f4c6c6;
+    text-align: center;
+    margin-left: 350;
+    margin-right: 350;
+    padding-bottom: 500;
+    position: relative;
+    left: 457;
+    bottom: 1073;
+    width: 150;
+}

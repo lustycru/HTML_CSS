@@ -1,0 +1,99 @@
+
+
+/* Minion 1 */
+
+
+body {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.black {
+    background-color: black;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.blue {
+    background-color: blue;
+}
+
+
+/* Minion 2 */
+
+
+.black {
+    background-color: black;
+}
+
+.dbrown {
+    background-color: #5C4033;
+}
+
+.brown {
+    background-color: #5C5248;
+}
+
+.beige {
+    background-color: #F8C898;
+}
+
+.dbeige {
+    background-color: #BC8F8F;
+}
+
+.dgreen {
+    background-color: #006400;
+}
+
+.mgreen {
+    background-color: #4B6F44;
+}
+
+.lgreen {
+    background-color: #63B76C;
+}
+
+.fgreen {
+    background-color: #74C365;
+}
+
+.blanc {
+    background-color: #FEFEE2;
+}
+
+.fblanc {
+    background-color: #FDF1B8;
+}
+
+.jaune {
+    background-color: #ffdd00;
+}
+
+.lrouge {
+    background-color: #ff6a00;
+}
+
+.drouge {
+    background-color: #ff5e00;
+}

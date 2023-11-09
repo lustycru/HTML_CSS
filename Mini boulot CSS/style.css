@@ -1,0 +1,141 @@
+/* @mila */
+div {
+    margin: .2%;
+}
+
+.box1 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+}
+
+.box2 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.box3 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.box4 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.box5 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+    /* position: relative;
+    margin-top: 5; */
+}
+
+.box6 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+    /* position: relative;
+    margin-top: 5; */
+}
+
+.box7 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+    /* position: relative;
+    margin-top: 5; */
+}
+
+.box8 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+    /* position: relative;
+    margin-right: 500;
+    margin-top: 5; */
+}
+
+.box9 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+    /* position: relative;
+    margin-left: 160;
+    margin-top: -315; */
+}
+
+.box10 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 3px;
+    border-style:solid;
+    /* border-radius: 4; */
+    border-radius: 30px;
+    text-align: center;
+    /* position:; */
+    /* margin-left: ; */
+}

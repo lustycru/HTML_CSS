@@ -1,0 +1,36 @@
+.conteneur {
+    border: 3px black solid;
+}
+
+header {
+    background-color: #212e50;
+    color: white;
+    text-align: center;
+    padding-bottom: 80;
+}
+
+nav {
+    background-color: #3f94f0;
+    text-align: center;
+    line-height: 3;
+}
+
+.moi {
+    background-color: #00e3fc;
+    color: #00e3fc;
+}
+
+section {
+    background-color: #054793;
+    text-align: center;
+    padding-bottom: 250;
+    border: 15px white solid;
+    color: white;
+}
+
+footer {
+    background-color: #212e50;
+    color: white;
+    text-align: center;
+    padding-bottom:50px ;
+}

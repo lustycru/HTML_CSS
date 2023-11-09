@@ -1,0 +1,66 @@
+.conteneur {
+    border: 3px black solid;
+}
+
+header {
+    background-color: #f6e652;
+    color: black;
+    text-align: center;
+    padding-bottom: 80;
+}
+
+nav {
+    background-color: #9b8d33;
+    text-align: center;
+    line-height: 3;
+}
+
+.moi {
+    background-color: #8a6e54;
+    color: #735233;
+}
+
+section {
+    background-color: white;
+    height: 400px;
+    margin: 40;
+}
+
+.zone1 {
+    background-color: rgb(57, 57, 245);
+    width: 50%;
+    height: 200;
+    float: left;
+}
+
+.zone2 {
+    background-color: yellow;
+    width: 50%;
+    height: 200;
+    float: left;
+}
+
+.zone3 {
+    background-color: yellow;
+    width: 50%;
+    height: 200;
+    float: left;
+}
+
+.zone4 {
+    background-color: rgb(57, 57, 245);
+    width: 50%;
+    height: 200;
+    float: left;
+}
+
+footer {
+    background-color: #f6e652;
+    color: black;
+    text-align: center;
+    padding-bottom:50px ;
+}
+
+.clear {
+    clear: both;
+}

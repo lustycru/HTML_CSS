@@ -1,0 +1,104 @@
+.container {
+    width: 60%;
+    margin: 0 auto  ;
+}
+
+.haut {
+    height: 200px;
+}
+    
+.haut1 {
+    background-color: rgb(43, 43, 249);
+    float: left;
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+}
+
+.haut2 {
+    background-color: #648ef6;
+    float: left;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu {
+    background-color: #051f62;
+    color: white;
+    text-align: center;
+    height: 40;
+    line-height: 60px;
+}
+
+.zonedegauche {
+    background-color: rgb(61, 129, 246);
+    height: 700px;
+    width: 20%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.blocdd {
+    background-color: #fff;
+    height: 700px;
+    width: 80%;
+    float: left;
+}
+
+.A,
+.B {
+    background-color: gray;
+    width:50%;
+    height: 250px;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.B {
+    background-color: rgb(20, 17, 234);
+}
+
+.SideShadow {
+    background-color: rgb(2, 93, 47);
+    color: white;
+    height: 250px;
+    text-align: center;
+}
+
+.C,
+.D,
+.E,
+.F {
+    background-color: brown;
+    display:block;
+    width: 241px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.D,
+.F {
+    background-color: grey;
+}
+
+.footer {
+    background-color: #051f62;
+    color: white;
+    text-align: center;
+    height: 40;
+    line-height: 60px;  
+    width: 125%;
+    position: relative;
+    right: 240.9px;
+}
+
+.clear {
+    clear: both;
+}

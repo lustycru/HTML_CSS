@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&family=Poppins&family=Rubik+Beastly&display=swap');
+
+body {
+    background-image: url(images/fond_jaune.png);
+    width:60%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.img1 {
+    height: 2cm;
+    width: 2cm;
+    position: relative;
+    right: 10px;
+}
+
+.zaag {
+    
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 100px;
+    font-weight: 100;
+    display: inline-block;
+    margin: 3% 0 0;
+}
+
+.ane {
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+nav ul {
+    padding: 0;
+    position: relative;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+    padding-top: 20;
+    width: 20%;
+}
+    
+nav a {
+    text-decoration: none   ;
+    color: inherit;
+    position: relative;
+    bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+}
+
+header {
+    background: url(images/separateur.png) repeat-x bottom;
+}
+
+.img2 {
+    height: 285px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pont {
+    background-color: rgba(24,24,24,0.8);
+    position: relative;
+    top: 285px;
+    width: 1225px;
+    line-height: 100px;
+    border-radius: 0 0 10px 10px;
+    padding-left: 10px;
+}
+
+.bouton_rouge {
+    background: url(images/fond_degraderouge.png)repeat-x;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 70px;
+    width: 150px;   
+    left: 85%;
+
+}
+
+.banner {
+    font-family: 'Poppins', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+
+.span1 {
+    padding: 9px;
+}
+
+.fleche {
+    height: 20px;
+    position: relative;
+    bottom: 96px;
+    left: 96%;
+}
+
+.planete {
+    font-family:'Gluten', cursive;
+    font-size: 35px;
+    padding-left: 80px;
+}
+
+.ico {
+    height: 70px;
+    position: relative;
+    bottom: 80px;
+}
+
+.pplanete {
+    font-family: 'Poppins', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 70px;
+    padding-right: 300px; ;
+}
+
+.auteur {
+    position: relative;
+    width: 260px;
+    background-color: #706b64;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
+    font-family:'Gluten', cursive;
+    font-size: 35px;
+    float: right;
+    bottom:850px;
+}
+
+.photo_ane {
+    border:black 30px;
+    height:200px;
+    position: relative;
+    right: 2px;
+    bottom: 30px;
+}
+
+.auteur1,
+.auteur2 {
+    font-family:'Poppins', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 21px;
+    position: relative;
+    bottom: 20px;
+}
+
+.flecheg {
+    position: relative;
+    bottom: 19cm;
+    left: 917px;
+    height: 30px;
+}
+
+.separateur {
+    position: relative;
+    width: 100%; 
+    height: 3px;
+    bottom: 850px;
+}
+
+.icotop {
+    height: 38px;
+    position: relative;
+    bottom: 854;
+    left: 450px;
+}
+
+.dtwt {
+    font-family:'Gluten', cursive;
+    font-size: 30px;
+    position: relative;
+    bottom: 850px;
+    left: 20px;
+}
+
+.twtxt {
+    font-family:'Poppins', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 20px;
+    right: 15px;
+    position: relative;
+}
+
+.photos {
+    font-family:'Gluten', cursive;
+    font-size: 30px;
+    position: relative;
+    bottom: 975px;
+    left: 450px;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4 {
+    border: black 35px;
+    height: 120px;
+    position: relative;
+    bottom: 950px;
+    left: 325px;
+}
+
+.amis {
+    font-family:'Gluten', cursive;
+    font-size: 30px;
+    position: relative;
+    bottom: 1125px;
+    left: 950px;
+}
+
+.Amis1,
+.Amis2 {
+    font-family:'Poppins', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 20px;
+    left: 870px;
+    position: relative;
+    bottom: 1128px;
+    color: brown;
+    font-weight: bold;
+}
+
+.Amis2 {
+    position: relative;
+    left: 1080;
+    bottom: 1275px;
+}
+
+.ico_fleche {
+    height: 15px;
+    position: relative;
+    right: 4px;
+}
+
+.final {
+    background-color: brown;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family:'Poppins', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    padding: 25px;
+    position: relative;
+    bottom: 1230px;
+}

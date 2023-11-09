@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Space+Mono&display=swap');
+
+body {
+    width: 41%;
+    margin: 200px auto;
+}
+
+table {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+td, 
+th {
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.espace_vide {
+    border: none;
+}
+
+.colonne1,
+.colonne2,
+.colonne3,
+.colonne4 {
+    display: inline-block;
+}
+
+.colonne2:hover,
+.colonne3:hover,
+.colonne4:hover {
+    transform: scale(1.5);
+    background-color: grey;
+}
+
+.colonne2,
+.colonne3,
+.colonne4 {
+    transition: 1s;
+}
+
+th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

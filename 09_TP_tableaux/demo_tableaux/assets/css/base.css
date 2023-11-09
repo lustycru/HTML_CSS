@@ -1,0 +1,354 @@
+/* ------ FONTS ------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montez&family=Montserrat&display=swap");
+
+:root {
+	--dark-violet: #462255;
+	--light-violet: #e0aaff;
+	--middle-red: #aa4465;
+	--light-red: #ffa69e;
+	--middle-green: #93e1d8;
+	--light-green: #ddfff7;
+	--dark-green: #4aa298;
+	--dark-green: #32756d;
+	--orange: #ffa62b;
+	--white: #fff;
+	--black: #000;
+	--light-grey: #b4b3b3;
+	--light-blue: #73a1e9;
+}
+
+/* ------ GLOBAL ------ */
+* {
+	box-sizing: border-box;
+}
+
+*:hover {
+	transition: all 0.2s ease 0s;
+}
+
+.shadow {
+	box-shadow: 0 1px 5px rgb(0 0 0 / 30%);
+}
+
+/* RWD FONTS */
+html { font-size: 62.5%; } /* 10px */
+
+/* Settings for p tags */
+body {
+	font-family: Montserrat, sans-serif;
+	margin: 0;
+	padding: 0;
+
+	/* font-size: 1.6rem; !* 16px *! */
+	line-height: 1.6;
+	background: url("../img/sneaker_mesh_fabric/sneaker_mesh_fabric.png") repeat center center fixed;
+}
+
+h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+} /* 30px */
+
+h2 { font-size: 2.5rem; } /* 25px */
+
+h3 { font-size: 2rem; } /* 20px */
+
+h4 { font-size: 1.8rem; } /* 18px */
+
+/* RWD FONTS END */
+
+/* LINKS */
+a {
+	color: var(--middle-red);
+	font-weight: bold;
+	text-decoration: overline var(--light-red) 2px;
+}
+
+a:hover {
+	color: var(--middle-green);
+	text-decoration: overline var(--light-green) 2px;
+	background-color: var(--dark-violet);
+}
+
+p {
+	color: var(--middle-red);
+}
+
+/* ------ TITLES ------ */
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+
+h2,
+div:not(.table) h3,
+h4{
+	text-transform: capitalize;
+}
+
+/* ------ IMG RWD ------ */
+img {
+	max-width: 100%;
+}
+
+/* ------ EM ------ */
+em {
+	font-style: normal;
+	color: var(--middle-red);
+	font-weight: bold;
+	text-decoration: underline overline var(--light-red) 2px;
+	cursor: wait;
+}
+
+/* ------ COLORS ------ */
+.c-dark-violet {
+	color: var(--dark-violet);
+}
+
+.c-light-violet {
+	color: var(--light-violet);
+}
+
+.c-middle-red {
+	color: var(--middle-red);
+}
+
+.c-light-red {
+	color: var(--light-red);
+}
+
+.c-middle-green {
+	color: var(--middle-green);
+}
+
+.c-light-green {
+	color: var(--light-green);
+}
+
+.bgc-dark-green {
+	background-color: var(--dark-green);
+}
+
+.c-orange {
+	color: var(--orange);
+}
+
+.c-light-blue {
+	color: var(--light-blue);
+}
+
+/* ------ BACKGROUND COLORS ------ */
+.bgc-dark-violet {
+	background-color: var(--dark-violet);
+}
+
+.bgc-light-violet {
+	background-color: var(--light-violet);
+}
+
+.bgc-middle-red {
+	background-color: var(--middle-red);
+	color: var(--white);
+}
+
+.bgc-light-red {
+	background-color: var(--light-red);
+	color: var(--black);
+}
+
+.bgc-middle-green {
+	background-color: var(--middle-green);
+	color: var(--black);
+}
+
+.bgc-light-green {
+	background-color: var(--light-green);
+	color: var(--black);
+}
+
+.bgc-dark-green {
+	background-color: var(--dark-green);
+	color: var(--white);
+}
+/* ------ /GLOBAL ------ */
+
+/* ------ HEADER ------ */
+
+/* ------ /HEADER ------ */
+
+/* ------ MAIN ------ */
+main {
+	background: rgb(178 178 178 / 30%);
+	width: 80%;
+	margin: 0 auto;
+	padding: 2vw;
+}
+
+section {
+	background-color: rgb(0 0 0 / 9%);
+	box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+
+	/* box-shadow: 0px 8px 16px 0px rgba(80, 194, 167, 0.75); */
+	margin-bottom: 3vw;
+	padding: 1vw;
+	/*border-radius: 1%;*/
+}
+
+/* listes */
+.ul-nested {
+	list-style-type: circle;
+}
+
+.li-ul-nested,
+.li-ol-nested {
+	list-style-type: none;
+}
+
+/* article */
+article {
+	/*background-color: #637081;*/
+	background-color: #6370814a;
+	min-height: 30vh;
+	padding: 5vmin;
+	box-shadow: 0 8px 16px 0 rgb(80 194 167 / 75%);
+	box-shadow: rgb(0 0 0 / 35%) 0 5px 15px;
+	margin-bottom: 3vw;
+}
+
+article h3 {
+	text-align: center;
+	color: var(--white);
+}
+
+article h4 {
+	color: var(--white);
+	margin: 1%;
+}
+
+article.demo h3,
+article.demo h4 {
+	color: var(--dark-violet);
+}
+/* class container */
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* sources & code lines */
+pre {
+	background-color: var(--dark-violet);
+	color: var(--white);
+	padding: 1vw;
+	margin: 1vw 0;
+	border-radius: 1%;
+	box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.code {
+	background-color: var(--light-green);
+	display: block;
+	text-align: center;
+	padding: 1vw;
+	margin: 1vw 0;
+	border-radius: 1%;
+	box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+/* code{ */
+
+/*    background-color: var(--dark-violet); */
+
+/*    padding: 1vw; */
+
+/*    margin: 1vw 0; */
+
+/*    border-radius: 1%; */
+
+/*    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+
+/* } */
+code span {
+	margin: 0;
+	font-size: 1.1rem;
+	white-space: pre-wrap;
+	color: var(--white);
+}
+
+.code-comment {
+	color: var(--light-grey);
+
+	/* font-family: 'Montez', cursive; */
+	font-style: italic;
+}
+
+.code-tag {
+	color: var(--light-blue);
+}
+
+.code-tag.orange {
+	color: var(--orange);
+}
+
+.code-tag.light-red {
+	color: var(--light-red);
+}
+
+.code-tag.middle-green {
+	color: var(--middle-green);
+}
+
+/*****************   */
+
+/* fontawesome */
+
+/* .fa-bomb, .fa-triangle-exclamation, .fa-xmark{ */
+
+/*    color: var(--orange); */
+
+/* } */
+
+/* .fa-check{ */
+
+/*    color: var(--middle-green); */
+
+/* } */
+
+/* ------ /MAIN ------ */
+/* .appear - elt on display: none; which appears on hover*/
+.show-hidden,
+.change-hidden{
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: revert;
+}
+/* ------ FOOTER ------ */
+
+/* ------ /FOOTER ------ */
+
+.clear {
+	clear: both;
+}
+
+/* RWD FONTS */
+@media screen and (min-width: 800px) {
+	html {
+		font-size: calc(62.5% * 1.2); /* 12px */
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	html {
+		font-size: calc(62.5% * 1.6); /* 16px */
+	}
+}
+
+/* RWD FONTS END */
